@@ -3,9 +3,12 @@ import gradio as gr
 import pandas as pd
 from sklearn.datasets import load_iris
 import pickle
+import os
 
 # Load model from file
-model_filename = "iris_random_forest_classifier.pkl"
+cwd = os.getcwd()
+print(cwd)
+model_filename = "week3/iris/iris_random_forest_classifier.pkl"
 with open(model_filename, mode="rb") as f:
     model = pickle.load(f)
 # Load dataset
