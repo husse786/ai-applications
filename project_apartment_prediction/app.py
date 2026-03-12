@@ -17,6 +17,7 @@ df_bfs["tax_income"] = df_bfs["tax_income"].str.replace("'", "").astype(float)
 
 df_apt = pd.read_csv("apartments_data_enriched_with_new_features.csv", sep=",", encoding="utf-8")
 df_apt = df_apt.dropna().drop_duplicates()
+df_apt["town"] = df_apt["town"].str.strip()
 
 # --- Precompute lookups ---
 town_to_bfs      = df_apt.groupby("town")["bfs_number"].first().to_dict()
