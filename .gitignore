@@ -1,3 +1,13 @@
 disposition.md
 week1/data_with_large_residuals.csv
 .env
+week6/vit-base-oxford-iiit-pets/*
+week8/soccer_action_classification/frame_0.jpg
+week8/soccer_action_classification/frame_1.jpg
+week8/soccer_action_classification/frame_2.jpg
+week8/soccer_action_classification/frame_3.jpg
+week8/soccer_action_classification/frame_4.jpg
+week8/soccer_action_classification/frame_5.jpg
+week8/soccer_action_classification/frame_6.jpg
+week8/soccer_action_classification/frame_7.jpg
+week8/transferlearning_with_custom_data/pokemon-vit/**
